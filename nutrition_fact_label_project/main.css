@@ -1,0 +1,130 @@
+html {
+  font-size: 28px;
+}
+
+body {
+  border: 2px solid black;
+  padding: 15px;
+  width: 650px;
+  font-family: "Helvetica Black", Helvetica, Arial, sans-serif;
+}
+
+header {
+  margin-top: -40px;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Franklin Gothic Heavy", Arial, sans-serif;
+  margin-bottom: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+}
+
+/*  styling specific for the first table  */
+
+table:first-child caption {
+  border-top: 30px solid black;
+  border-bottom: 1px solid black;
+  text-align: left;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 4px;
+}
+
+table:nth-child(1)  td {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+table:first-child tr {
+ border-bottom: 1px solid black;
+}
+
+table:first-child td {
+ text-align: right;
+}
+
+table:first-child thead tr th:nth-child(2) dt {
+ font-weight: normal;
+}
+
+table:first-child thead tr th {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+table:first-child tbody tr:nth-child(9) {
+ border-bottom: 20px solid black;
+}
+
+table:nth-child(1) tbody tr:nth-child(1n+10) th,
+table:nth-child(1) tbody tr:nth-child(1n+10) td {
+  font-weight: normal;
+}
+
+[colspan="2"] {
+  text-align: right;
+  border-top: 15px solid black;
+}
+
+.calories_230 dt {
+  text-indent: 1rem;
+  font-weight: normal;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dd {
+  margin: 0;
+  font-weight: normal;
+}
+
+/* Styling specific for the second table */
+
+dt, dd {
+  display: inline-block;
+}
+
+table:nth-child(2) caption {
+  padding: 5px;
+  font-size: .9rem;
+  text-align: left;
+}
+
+table:nth-child(2) tbody tr:nth-child(2) th,
+table:nth-child(2) tbody tr:nth-child(6) th {
+  text-indent: 1.3rem;
+}
+
+table:nth-child(2) thead,
+table:nth-child(2) tbody {
+  font-size: .8rem;
+}
+
+table:nth-child(2) td {
+  text-align: left;
+}
+
+table:nth-child(2) thead th {
+  border-bottom: 1px solid black;
+  font-weight: normal;
+}
+
+table:nth-child(2) tbody th {
+  font-weight: normal;
+}
