@@ -1,0 +1,97 @@
+@import url("whitespace-reset.css");
+
+*
+ {
+  box-sizing: border-box;
+}
+
+html {
+  color: #000;
+  font: 20px 'Nunito', Arial,  sans-serif;
+}
+
+body {
+  background: url("bg_body.gif") repeat;
+}
+
+header, main, footer {
+  width: 999px;
+}
+
+header {
+  margin: 153px auto 84px auto;
+}
+
+main {
+  background-color: white;
+  margin: 0 auto;
+  padding: 105px 87px 60px 87px;
+}
+
+footer {
+  background-color: #e7e7e7;
+  margin: 0 auto 136px auto;
+  padding: 27px 297px;
+}
+
+img.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.about {
+  margin: 24px 0 173px 0;
+}
+
+.founder {
+  margin: 27px 0 0 0;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+h2:before, h2:after {
+  content: "\2022 ";
+  font-size: 1.4rem;
+  padding: 0 26px 0 24px;
+  vertical-align: 5px;
+}
+
+
+h3 {
+  color: #3e97b2;
+  background-color: inherit;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 21px;
+  letter-spacing: 0.1rem;
+}
+
+p {
+  line-height: 28px;
+  text-align: center;
+  width: 818px;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+li:nth-child(2),  li:nth-child(3) {
+  margin-left: 116px;
+}
+
+ul li a {
+  display: block;
+}
