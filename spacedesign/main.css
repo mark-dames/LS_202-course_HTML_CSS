@@ -1,0 +1,193 @@
+@import url("whitespace-reset.css");
+
+/* styles uses across the three pages */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 20px "Avenir", 'Nunito', Helvetica, Arial, sans-serif;
+  color: #000;
+  background: #302940 url("images/bg_body.gif") 50% 0 repeat;
+  text-align: center;
+  padding: 131px 0 0 0;
+}
+
+main {
+  background-color: #fff;
+  padding: 120px 185px 84px 185px;
+}
+
+main h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+}
+
+main h3 {
+  font-size: 24px;
+  font-weight: 900;
+  color: #3e59b2;
+}
+
+main p {
+  width: 800px;
+  margin: 0 auto;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+main h2:before, main h2:after {
+  content: "\2022";
+  font-size: 30px;
+  margin: 0 25px 0 25px;
+  vertical-align: 5px;
+}
+
+/* styles for the header and navigation */
+
+header {
+  padding-bottom: 41px;
+}
+
+header h1 {
+  margin-bottom: 115px;
+}
+
+nav ul li:nth-child(1n+2) {
+  margin-left: 64px;
+}
+
+nav li {
+  display: inline;
+}
+
+ header a {
+  color: #cacaca;
+  font-size: 26px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: #6db9ff
+}
+
+/* styles for the footer */
+
+footer {
+  background-color: #e7e7e7;
+  margin: 0 auto;
+  padding: 85px 350px 77px 350px;
+}
+
+footer p {
+  width: 525px;
+  margin: 0 auto 42px auto;
+  font-weight: 500;
+  line-height: 28px;
+  color: #b2b2b2;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0 60px;
+}
+
+footer li a {
+  background:
+  transparent
+  url("images/icons_social-media.png") 0 0 no-repeat;
+  display: block;
+  height: 46px;
+  overflow: hidden;
+  text-indent: -8685px;
+  width: 46px;
+}
+
+footer li a.twitter {
+  background-position: 0 0;
+}
+
+footer li a.facebook {
+  background-position: 0 -46px;
+}
+
+footer li a.email {
+  background-position: 0 -92px;
+}
+
+footer li a.instragram {
+  background-position: 0 -138px;
+}
+
+/* styles for the home page */
+
+main article.about h2 {
+  margin-bottom: 35px;
+}
+
+main article.about h3 {
+  margin-bottom: 15px;
+}
+
+main article.about {
+  margin-bottom: 75px;
+}
+
+main article.founder h2 {
+  margin-bottom: 46px;
+}
+
+/* projects page styles */
+main.projects h2 {
+  padding-bottom: 32px;
+}
+
+main.projects h3 {
+  padding: 45px 0 17px 0;
+}
+
+main.projects p {
+  padding-bottom: 30px;
+}
+
+main.projects {
+  padding: 120px 185px 20px 185px;
+}
+
+/* Team page styles */
+main.team ul  {
+  display: flex;
+  width: 742px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 130px 0 140px 0;
+}
+
+main.team h2 {
+  padding-bottom: 32px;
+}
+
+main.team ul li a figure figcaption {
+  color: #643095;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 30px;
+}
+
+main.team img {
+  display: block;
+}
+
+main.team a {
+  text-decoration: none;
+}
